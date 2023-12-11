@@ -3,5 +3,13 @@ footer{
 }
 
 #nav-footer{
+border-bottom: 1px solid lightgray;
+}
 
+.gray{
+    color: gray;
+}
+
+.selected{
+    border-bottom: 2px solid black;
 }
