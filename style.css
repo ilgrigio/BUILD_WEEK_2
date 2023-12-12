@@ -1,5 +1,6 @@
 footer{
     background-color: #F7F7F7;
+    font-size: 15px;
 }
 
 #nav-footer{
@@ -18,8 +19,16 @@ border-bottom: 1px solid lightgray;
     border-top: 1px solid lightgray;
 }
 
+
 @media screen and (max-width: 991px){
     .md-border {
         border-top: 1px solid lightgray;
     }
+}
+
+@media screen and (max-width: 563px){
+    #footer-end{
+        font-size: 12px;
+    }
+
 }
