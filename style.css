@@ -1,0 +1,36 @@
+footer{
+    background-color: #F7F7F7;
+    font-size: 15px;
+}
+
+#nav-footer{
+border-bottom: 1px solid lightgray;
+}
+
+.gray{
+    color: gray;
+}
+
+.selected{
+    border-bottom: 2px solid black;
+}
+
+.border-top{
+    border-top: 1px solid lightgray;
+}
+
+
+
+
+@media screen and (max-width: 991px){
+    .md-border {
+        border-top: 1px solid lightgray;
+    }
+}
+
+@media screen and (max-width: 563px){
+    #footer-end{
+        font-size: 12px;
+    }
+
+}
