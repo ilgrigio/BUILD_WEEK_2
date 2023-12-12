@@ -1217,3 +1217,67 @@ const destinazioni = [
     ],
   },
 ];
+
+const containerCard = document.querySelector("#cards");
+
+for (let i = 0; i < destinazioni.length; i++) {
+  // const ultimo = document.querySelector("#ultimo" + i);
+  for (let j = 0; j < destinazioni[i].picture_urls.length; j++) {
+    containerCard.innerHTML += `  <div class="img-card-dimension m-5">
+        <div id="carouselExampleIndicators" class="carousel slide overflow-hidden rounded-5">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://a0.muscache.com/im/pictures/cfc3cc62-d102-4b12-9dce-56db6bbb519d.jpg?im_w=720" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="https://a0.muscache.com/im/pictures/9943f897-4302-474c-9d6f-395a86d2dc72.jpg?im_w=720" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="https://a0.muscache.com/im/pictures/miso/Hosting-1011370998103824032/original/7123e9c9-9dcd-480f-83c7-450411444f74.jpeg?im_w=720" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="https://a0.muscache.com/im/pictures/9943f897-4302-474c-9d6f-395a86d2dc72.jpg?im_w=720" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="https://a0.muscache.com/im/pictures/miso/Hosting-1011370998103824032/original/7123e9c9-9dcd-480f-83c7-450411444f74.jpeg?im_w=720" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title">Card title</h5>
+            <h6>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg>
+              valutazione
+            </h6>
+          </div>
+          <div>
+            <p class="card-text text-muted">
+              Host privato<br />
+              periodo
+            </p>
+          </div>
+          <div>
+            <p class="card-text">prezzo</p>
+          </div>
+        </div>
+      </div> `;
+  }
+}
