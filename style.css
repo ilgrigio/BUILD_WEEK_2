@@ -1,21 +1,98 @@
-.navbar img {
-  width: 1.5em;
+footer {
+  background-color: #f7f7f7;
+  font-size: 15px;
 }
 
-.location__name {
-  font-size: small;
-  font-weight: bold;
-  margin-block-start: 5px;
+#nav-footer {
+  border-bottom: 1px solid lightgray;
 }
 
-.location__line {
-  width: unset;
-  height: 3px;
-  background-color: black;
-  margin-block-start: 5px;
+.gray {
+  color: gray;
 }
 
-.vertical {
-  display: flex;
-  flex-direction: column;
+.selected {
+  border-bottom: 2px solid black;
+}
+
+.border-top {
+  border-top: 1px solid lightgray;
+}
+
+@media screen and (max-width: 991px) {
+  .md-border {
+    border-top: 1px solid lightgray;
+  }
+}
+
+@media screen and (max-width: 563px) {
+  #footer-end {
+    font-size: 12px;
+  }
+}
+.carta img {
+  width: 40px;
+}
+.carta {
+  opacity: 0.5;
+}
+.carta p {
+  white-space: nowrap;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.carta:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.carta:hover p {
+  border-bottom: 2px rgb(198, 196, 196) solid;
+}
+#primaCard {
+  opacity: 1;
+}
+#primaCard p {
+  border-bottom: 2px black solid;
+}
+
+.filtri p {
+  margin-bottom: 0;
+}
+.filtri {
+  margin-left: 30px;
+  background-color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  border: 1px lightgray solid;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 20px;
+}
+.carousel-control-prev {
+  left: 10px;
+}
+.carousel-control-next {
+  right: 10px;
+}
+
+.carousel-control-prev-icon {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  border: 1px black solid;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="16" width="10" viewBox="0 -250 320 1024"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com/ License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>');
+  -webkit-box-shadow: 0px 1px 18px 31px #ffffff;
+  box-shadow: 0px 1px 18px 31px #ffffff;
+}
+
+.carousel-control-next-icon {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  border: 1px black solid;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="16" width="10" viewBox="0 -250 320 1024"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com/ License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>');
+  -webkit-box-shadow: 0px 1px 18px 31px #ffffff;
+  box-shadow: 0px 1px 18px 31px #ffffff;
 }
