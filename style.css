@@ -1,0 +1,21 @@
+.navbar img {
+  width: 1.5em;
+}
+
+.location__name {
+  font-size: small;
+  font-weight: bold;
+  margin-block-start: 5px;
+}
+
+.location__line {
+  width: unset;
+  height: 3px;
+  background-color: black;
+  margin-block-start: 5px;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
